@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "homepage": "https://mfaiz2003.github.io/Recipe-Junction"
   },
   "dependencies": {
