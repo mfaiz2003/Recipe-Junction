@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import '../pages/gradient.css';
 import logo from '../assets/logo.png';
 import image1 from '../assets/image1.png';
 import image2 from '../assets/image2.png';
@@ -15,7 +16,8 @@ function Home(){
     const navigate = useNavigate();
 
     return(
-
+     
+      <>
         <div className="min-h-screen w-full px-4 md:px-0">
 
       <nav className='flex items-center'>
@@ -29,27 +31,27 @@ function Home(){
         </ul>
       </nav>
 
-        <h1 className='text-center text-3xl md:text-5xl font-extrabold mt-20'>“Cook Up a Storm, <span className='text-green-500'>One Yummy Recipe at a Time!”</span></h1> 
-        <p className='text-center text-lg md:text-3xl font-light mt-10 px-4 md:px-0 max-w-3xl mx-auto'>From sizzle to sprinkle, Every bite’s a joy to mingle,<br /> Bringing delicious moments to your table</p>
+        <h1 className='text-center text-3xl md:text-5xl font-extrabold mt-20 slide-left fade-delay-4' >“Cook Up a Storm, <span className='text-green-500'>One Yummy Recipe at a Time!”</span></h1> 
+        <p className='text-center text-lg md:text-3xl font-light mt-10 px-4 md:px-0 max-w-3xl mx-auto slide-right fade-delay-5'>From sizzle to sprinkle, Every bite’s a joy to mingle,<br /> Bringing delicious moments to your table</p>
 
       <div className="flex justify-center mt-6 md:mt-10">
-       <button className="md:px-10 px-8 py-2 bg-green-500 text-white rounded-xl hover:text-xl font-bold" onClick={() => navigate("/explore")}>
+       <button className="smooth-gradient-btn transition-transform duration-300  md:px-10 px-8 py-2 text-white rounded-xl hover:text-xl font-bold" onClick={() => navigate("/explore")}>
         Explore Now
        </button>
-      </div>
-      
+      </div>  
 
-      <div className='flex flex-wrap overflow-hidden gap-4 mt-24 justify-center'>
-        <img src={image1} alt="image1" className="w-1/4 h-auto sm:w-52 sm:h-52 object-cover" />
-        <img src={image2} alt="image2" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover" />
-        <img src={image4} alt="image4" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover" />
-        <img src={image5} alt="image5" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover" />
-        <img src={image6} alt="image6" className="w-1/2 h-auto sm:w-96 sm:h-52  object-cover" />
-    </div>      
+       <div className='flex flex-wrap overflow-hidden gap-4 mt-24 justify-center'>
+        <img src={image1} alt="image1" className="w-1/4 h-auto sm:w-52 sm:h-52 object-cover fall-top "style={{ animationDelay: "0s" }}/>
+        <img src={image2} alt="image2" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover fall-top"style={{ animationDelay: "0.2s" }}/>
+        <img src={image4} alt="image4" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.4s" }}/>
+        <img src={image5} alt="image5" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.6s" }}/>
+        <img src={image6} alt="image6" className="w-1/2 h-auto sm:w-96 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.8s" }}/>
+      </div>
+
 
   </div>
 
-
+    </>
     );
 }
 
