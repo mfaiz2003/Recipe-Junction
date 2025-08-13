@@ -17,9 +17,9 @@ function Explore() {
   return (
     <>
     {/* nonveg */}
-      <div className='flex justify-evenly  flex-col md:flex-row mx-10 slide-left fade-delay-4 shadow-xl rounded-3xl py-3'>
+      <div className='flex lg:flex-row flex-col md:flex-row gap-2 mx-10 slide-left fade-delay-4 shadow-xl rounded-3xl py-3'>
   
-        <div className="relative w-full md:w-[500px] h-[350px] flex justify-center mt-10 ">
+        <div className="relative w-full md:w-[500px] h-[350px] flex justify-center ">
     
     
           <div className="absolute top-0 left-0 md:left-[-20px] w-[250px] md:w-[350px] h-[250px] md:h-[350px] rounded-4xl bg-white shadow-xl transform rotate-[-8deg] z-0">
