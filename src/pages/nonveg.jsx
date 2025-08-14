@@ -25,11 +25,11 @@ function Nonveg(){
         
         <footer className='w-full h-12 flex justify-center items-center mt-3'>
             <div className='flex justify-center items-center md:px-18 px-4 py-2 rounded-4xl smooth-gradient-btn transition-transform duration-300 '>
-                <h1 className='text-4xl font-black'>RECIPE</h1>
+                <h1 className='md:text-4xl text-2xl text-white font-bold tracking-[0.5em]'>𝐑𝐄𝐂𝐈𝐏𝐄</h1>
             </div>
         </footer>
 
-        <div className='w-1/2 mt-5 flex justify-center bg-gradient-to-r from-red-500 via-red-400 to-violet-300 rounded-tr-full rounded-br-full shadow-lg sticky top-10 z-50'>
+        <div className='w-1/2 mt-5 flex justify-center bg-gradient-to-r from-green-500 via-green-400 to-violet-300 rounded-tr-full rounded-br-full shadow-lg sticky top-10 z-50'>
             <h1 className='text-center font-bold text-2xl m-3 text-white'>Non-Veg Gravy Recipe</h1>
         </div>
 
