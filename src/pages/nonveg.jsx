@@ -1,3 +1,4 @@
+import '../pages/gradient.css';
 import image2 from '../nonveg.img/image2.jpg';
 import image5 from '../nonveg.img/image5.jpg';
 import image6 from '../nonveg.img/image6.jpg';
@@ -19,9 +20,16 @@ function Nonveg(){
        
         
     <>
-    <div className='bg-pink-50 pt-5'>
+    <div className=' pt-[footer-height]'>
 
-        <div className='w-1/2 flex justify-center bg-gradient-to-r from-red-500 via-red-400 to bg-violet-300 rounded-tr-full rounded-br-full shadow-lg sticky top-0 z-50'>
+        
+        <footer className='w-full h-12 flex justify-center items-center mt-3'>
+            <div className='flex justify-center items-center md:px-18 px-4 py-2 rounded-4xl smooth-gradient-btn transition-transform duration-300 '>
+                <h1 className='text-4xl font-black'>RECIPE</h1>
+            </div>
+        </footer>
+
+        <div className='w-1/2 mt-5 flex justify-center bg-gradient-to-r from-red-500 via-red-400 to-violet-300 rounded-tr-full rounded-br-full shadow-lg sticky top-10 z-50'>
             <h1 className='text-center font-bold text-2xl m-3 text-white'>Non-Veg Gravy Recipe</h1>
         </div>
 
