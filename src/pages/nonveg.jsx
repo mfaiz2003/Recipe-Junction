@@ -1,16 +1,26 @@
 import '../pages/gradient.css';
-import image2 from '../nonveg.img/image2.jpg';
-import image5 from '../nonveg.img/image5.jpg';
-import image6 from '../nonveg.img/image6.jpg';
-import image3 from '../nonveg.img/image3.jpg';
-import image7 from '../nonveg.img/image7.jpg';
-import image9 from '../nonveg.img/image9.jpg';
-import image10 from '../nonveg.img/image10.jpeg';
-import image11 from '../nonveg.img/image11.jpg';
 import mutton1 from '../nonveg.img/mutton1.jpg';
 import mutton2 from '../nonveg.img/mutton2.jpg';
 import mutton3 from '../nonveg.img/mutton3.jpg';
 import mutton4 from '../nonveg.img/mutton4.jpg';
+import image2 from '../nonveg.img/image2.jpg';
+import image5 from '../nonveg.img/image5.jpg';
+import image6 from '../nonveg.img/image6.jpg';
+import image3 from '../nonveg.img/image3.jpg';
+import image8 from '../nonveg.img/image8.jpg';
+import image9 from '../nonveg.img/image9.jpg';
+import image10 from '../nonveg.img/image10.jpeg';
+import image11 from '../nonveg.img/image11.jpg';
+import image12 from '../nonveg.img/image12.jpeg';
+import image13 from '../nonveg.img/image13.jpg';
+import image14 from '../nonveg.img/image14.jpg';
+import image15 from '../nonveg.img/image15.jpg';
+import image16 from '../nonveg.img/image16.jpg';
+import image17 from '../nonveg.img/image17.jpg';
+import image18 from '../nonveg.img/image18.jpg';
+import image19 from '../nonveg.img/image19.jpeg';
+import image20 from '../nonveg.img/image20.jpg';
+
 
 
 
@@ -20,18 +30,19 @@ function Nonveg(){
        
         
     <>
-    <div className=' pt-[footer-height]'>
+    <div className='bg-[#0C104E]'>
 
-        
-        <footer className='w-full h-12 flex justify-center items-center mt-3'>
-            <div className='flex justify-center items-center md:px-18 px-4 py-2 rounded-4xl smooth-gradient-btn transition-transform duration-300 '>
+        <footer className='flex justify-center items-center w-full bg-gradient-to-r from-[#00FFFF] via-[#8A2BE2] to-[#FF69B4] rounded-b-4xl'>
+            <div className='px-10 py-2 '>
                 <h1 className='md:text-4xl text-2xl text-white font-bold tracking-[0.5em]'>𝐑𝐄𝐂𝐈𝐏𝐄</h1>
             </div>
         </footer>
 
-        <div className='w-1/2 mt-5 flex justify-center bg-gradient-to-r from-green-500 via-green-400 to-violet-300 rounded-tr-full rounded-br-full shadow-lg sticky top-10 z-50'>
+        <div className='w-2/5  mt-5 flex justify-center bg-gradient-to-r from-green-500 via-green-400 to-violet-300 rounded-tr-full rounded-br-full shadow-lg sticky top-20 z-50'>
             <h1 className='text-center font-bold text-2xl m-3 text-white'>Non-Veg Gravy Recipe</h1>
         </div>
+
+        {/*     nonveg gravy section */}
 
         <div className="flex justify-between w-full md:w-full gap-10 py-4 px-10 md:px-10 flex-col md:flex-row mt-3">
             
@@ -120,14 +131,121 @@ function Nonveg(){
                 <p className='text-justify px-7 mt-2 '>Tender mutton pieces cooked on high heat with onions, tomatoes, and spices to create a thick</p>
                 <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button>
             </div>
-        </div>       
+        </div> 
+
+
+        {/* Fried section */}
+
+        <div className='w-2/5 mt-5 flex justify-center bg-gradient-to-r from-violet-600 via-violet-500 to bg-violet-400 rounded-tr-full rounded-br-full shadow-lg sticky top-20 z-50'>
+            <h1 className='text-center font-bold text-2xl m-3 text-white'>Fried & Roasted Recipe</h1>
+        </div>
+
+
+        <div className="flex justify-between w-full md:w-full gap-10 py-4 px-10 md:px-10 flex-col md:flex-row mt-3">
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image8} alt="image8" className="w-full h-52 object-cover rounded-t-4xl"/>
+                <h1 className='text-center text-2xl mt-2 py-3 '>𝐜𝐡𝐢𝐜𝐤𝐞𝐧 𝐅𝐫𝐲</h1>
+                <p className='text-justify px-7 mt-2 '>Juicy chicken pieces, perfectly marinated and fried till golden crisp</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button> 
+            </div>
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image12}  alt="image12" className="w-full h-52 object-cover rounded-t-4xl" />
+                <h1 className='text-center text-2xl mt-2 py-3'>𝐂𝐡𝐢𝐜𝐤𝐞𝐧 𝐑𝐨𝐚𝐬𝐭𝐞𝐝</h1>
+                <p className='text-justify px-7 mt-2 '>Tender chicken marinated in spices and slow-roasted for a smoky, flavorful delight</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button> 
+            </div>
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image13}  alt="image13" className="w-full h-52 object-cover rounded-t-4xl" />
+                <h1 className='text-center text-2xl mt-2'>𝐂𝐡𝐢𝐜𝐤𝐞𝐧 𝐓𝐢𝐤𝐤𝐚</h1>
+                <p className='text-justify px-7 mt-2 '>Succulent chicken cubes marinated in aromatic spices and grilled to perfection</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button> 
+            </div>
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image14}  alt="image14" className="w-full h-52 object-cover rounded-t-4xl"/>
+                <h1 className='text-center text-2xl mt-2'>𝐂𝐡𝐢𝐜𝐤𝐞𝐧 𝐒𝐞𝐞𝐤𝐡 𝐤𝐚𝐛𝐚𝐛</h1>
+                <p className='text-justify px-7 mt-2 '>Minced chicken blended with spices, skewered, and grilled for a smoky, juicy flavor</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button>                
+            </div>
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image15}  alt="image15" className="w-full h-52 object-cover rounded-t-4xl" />
+                <h1 className='text-center text-2xl mt-2'>𝐂𝐡𝐢𝐜𝐤𝐞𝐧 𝐒𝐚𝐚𝐦𝐢 𝐤𝐚𝐛𝐚𝐛</h1>
+                <p className='text-justify px-7 mt-2 '>Soft and flavorful chicken mince patties infused with spices, shallow-fried to perfection</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button> 
+            </div> 
+
+        </div>
+
+
+        {/* section 2 */}
+
+        <div className="flex justify-between w-full md:w-3/5 gap-10 py-4 px-10 md:px-10 flex-col md:flex-row mt-3">
+            
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image16}  alt="image16" className="w-full h-52 object-cover rounded-t-4xl" />
+                <h1 className='text-center text-2xl mt-2'>𝐌𝐮𝐭𝐭𝐨𝐧 𝐒𝐞𝐞𝐤𝐡 𝐊𝐚𝐛𝐚𝐛</h1>
+                <p className='text-justify px-7 mt-2 '>Soft and flavorful Mutton mince patties infused with spices, shallow-fried to perfection</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button> 
+            </div>
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image17}  alt="image17" className="w-full h-52 object-cover rounded-t-4xl"/>
+                <h1 className='text-center text-2xl mt-2'>𝐌𝐮𝐭𝐭𝐨𝐧 𝐂𝐡𝐚𝐫𝐬𝐢 𝐓𝐢𝐤𝐤𝐚</h1>
+                <p className='text-justify px-7 mt-2 '>Juicy mutton chunks seasoned with salt and spices, grilled for a rich, smoky taste</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button>                
+            </div>
+
+             <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image20}  alt="image20" className="w-full h-52 object-cover rounded-t-4xl"/>
+                <h1 className='text-center text-2xl mt-2'>𝐂𝐡𝐢𝐜𝐤𝐞𝐧 𝐋𝐨𝐥𝐥𝐢𝐩𝐨𝐩</h1>
+                <p className='text-justify px-7 mt-2 '>Frenched chicken wings marinated in spices, deep-fried, and served with tangy sauce</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button>                
+            </div>
+            
+        </div> 
+
+          {/* Biryani */}
+
+        
+        <div className='w-2/5 mt-5 flex justify-center bg-gradient-to-r from-red-400 via-red-300 to bg-red-200 rounded-tr-full rounded-br-full shadow-lg sticky top-20 z-50'>
+            <h1 className='text-center font-bold text-2xl m-3 text-white'>𝐁𝐢𝐫𝐲𝐚𝐧𝐢</h1>
+        </div>
+
+        <div className="flex justify-between w-full md:w-2/5 gap-10 py-4 px-10 md:px-10 flex-col md:flex-row mt-3">
+             <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image18}  alt="image16" className="w-full h-52 object-cover rounded-t-4xl" />
+                <h1 className='text-center text-2xl mt-2'>𝐂𝐡𝐢𝐜𝐤𝐞𝐧 𝐁𝐫𝐢𝐲𝐚𝐧𝐢 </h1>
+                <p className='text-justify px-7 mt-2 '>Flavorful basmati rice cooked with succulent chicken pieces and a blend of aromatic spices</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button> 
+            </div>
+
+            <div className='w-full md:w-96 h-full flex flex-col items-center rounded-4xl shadow-xl hover:shadow-2xl bg-white sticky top-0 z-0'>
+                <img src={image19}  alt="image17" className="w-full h-52 object-cover rounded-t-4xl"/>
+                <h1 className='text-center text-2xl mt-2'>𝐌𝐮𝐭𝐭𝐨𝐧 𝐁𝐫𝐢𝐲𝐚𝐧𝐢 </h1>
+                <p className='text-justify px-7 mt-2 '>Fragrant basmati rice layered with tender mutton pieces, slow-cooked in aromatic spices</p>
+                <button className='mt-2 rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110 mb-3'>View Recipe</button>                
+            </div>
+        </div> 
+
+        <footer className='mt-16 py-2 bg-gradient-to-r from-green-100 via-green-200 to-green-300'>
+          <div className="max-w-7xl mx-auto px-2 flex justify-center items-center">
+            <p className="text-center md:text-left text-sm md:text-base">
+            © 2025 Recipe-Junction. Crafted with ❤️ by Mohammad Faiz
+            </p>
+          </div>  
+        </footer>  
 
     </div>
 
 
-        <div className='w-1/2 flex justify-center bg-gradient-to-r from-violet-400 via-violet-300 to bg-violet-200 rounded-tr-full rounded-br-full shadow-lg'>
-            <h1 className='text-center font-bold text-2xl m-3 text-white'>Non-Veg Gravy Recipe</h1>
-        </div>
+         
+
+
+
      
            </>
 
