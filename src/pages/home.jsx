@@ -4,7 +4,7 @@ import { useState } from "react";
 import '../pages/gradient.css';
 import logo from '../assets/logo.png';
 import image1 from '../assets/image1.png';
-import image2 from '../assets/image2.png';
+import image7 from '../assets/image7.png';
 import image4 from '../assets/image4.png';
 import image5 from '../assets/image5.png';
 import image6 from '../assets/image6.png';
@@ -58,11 +58,22 @@ function Home(){
       </div>  
 
        <div className='flex flex-wrap overflow-hidden gap-4 mt-24 justify-center'>
+
         <img src={image1} alt="image1" className="w-1/4 h-auto sm:w-52 sm:h-52 object-cover fall-top "style={{ animationDelay: "0s" }}/>
-        <img src={image2} alt="image2" className="w-1/4 h-auto sm:w-70 sm:h-52  object-cover fall-top"style={{ animationDelay: "0.2s" }}/>
-        <img src={image4} alt="image4" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.4s" }}/>
-        <img src={image5} alt="image5" className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.6s" }}/>
-        <img src={image6} alt="image6" className="w-1/2 h-auto sm:w-96 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.8s" }}/>
+
+        <div className=" w-1/4 h-auto sm:w-52 sm:h-52  object-cover">
+        <img src={image7} alt="image7" className=" fall-top"style={{ animationDelay: "0.2s" }}/>
+        </div>
+        
+        <div className="w-1/4 h-auto sm:w-52 sm:h-52  object-cover">
+        <img src={image4} alt="image4" className="fall-top" style={{ animationDelay: "0.4s" }}/>
+        </div>
+    
+        <img src={image5} alt="image5" className=" w-1/4 h-auto sm:w-52 sm:h-52  object-cover fall-top" style={{ animationDelay: "0.6s" }}/>
+
+        <div className="w-1/2 h-auto sm:w-76 sm:h-52 object-cover">
+        <img src={image6} alt="image6" className="fall-top" style={{ animationDelay: "0.8s" }}/>
+        </div>
       </div>
     
       </div>
