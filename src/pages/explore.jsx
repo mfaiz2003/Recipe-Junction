@@ -7,8 +7,6 @@ import veg2 from '../veg.img/veg2.png';
 import veg3 from '../veg.img/veg3.png';
 import dessert1 from '../dessert/dessert1.jpeg';
 import dessert2 from '../dessert/dessert2.jpg';
-import pic1 from '../fastfood/pic1.jpg';
-import pic2 from'../fastfood/pic2.jpg';
 
 function Explore() {
    
@@ -25,9 +23,9 @@ function Explore() {
 
     {/* nonveg */}
 
-    <div className="bg-[#0C104E]">
+    <div className="bg-[#0C104E] min-h-screen">
 
-      <div className='flex lg:flex-row flex-col md:flex-row gap-2 mx-10 fade-delay-4 md:gap-8 slide-left shadow-xl shadow-white rounded-3xl py-3 '>
+      <div className='flex lg:flex-row flex-col md:flex-row gap-2 mx-10 fade-delay-4 md:gap-8 slide-left shadow-xl shadow-white rounded-3xl'>
   
         <div className="relative w-full md:w-[500px] h-[350px] flex justify-center   ">
     
@@ -112,35 +110,6 @@ function Explore() {
             <button className="smooth-gradient-btn transition-transform duration-300 md:px-4 px-6 py-2 text-white rounded-xl shadow-xl hover:scale-110" onClick={() => navigate("/dessert")}>Check Out</button>
             </div>
           </div>
-     
-      </div>
-
-
-      {/* fastfood */}
-
-      <div className='flex justify-evenly flex-col-reverse md:flex-row mx-10 mt-5 slide-right fade-delay-5 shadow-xl shadow-white  rounded-3xl py-3'>
-
-
-          <div className="w-full md:w-1/2 flex flex-col  items-center md:justify-center justify-center text-white py-3">
-            <h1 className='text-3xl md:text-5xl text-center mt-10'>❝𝐅𝐚𝐬𝐭-𝐅𝐨𝐨𝐝❞</h1>
-            <p className='flex mt-4 sm:mt-6 px-4 sm:px-6 font-light text-justify  text-base sm:text-lg md:text-xl'>“Craving something fast but full of flavor? Our fast food brings you crispy, juicy, and mouthwatering delights in every bite.
-            From spicy kicks to cheesy goodness, We serve up satisfaction that fits your busy lifestyle — Because great taste should never wait!”</p>
-
-          <div className="flex justify-center mt-6 md:mt-10 shadow-xl">
-            <button className="smooth-gradient-btn transition-transform duration-300 md:px-4 px-6 py-2 text-white rounded-xl hover:scale-110">Check Out</button>
-          </div>
-         </div>
-
-        <div className="relative w-full md:w-[500px] h-[350px] flex justify-center mt-10 "> 
-         
-           <div className="absolute top-0 left-20 md:left-44 w-[250px] md:w-[350px] h-[250px] md:h-[350px] rounded-4xl shadow-xl transform rotate-[8deg] z-0 ">
-            <img src={pic1} alt="page3" className="w-full h-full object-cover p-2 rounded-4xl" />
-          </div>
-
-          <div className="absolute top-0 left-0 md:left-[-20px] w-[250px] md:w-[350px] h-[250px] md:h-[350px] rounded-full bg-white shadow-xl transform rotate-[-8deg] z-20">
-            <img src={pic2} alt="page1" className="w-full h-full object-cover rounded-4xl" />
-          </div>
-        </div>
      
       </div>
      

@@ -43,7 +43,7 @@ function Home(){
         <ul className={`flex ml-auto pr-6  gap-3 md:gap-5 text-lg mr-10 absolute md:static top-20 right-4 transition-all duration-300
            md:flex md:top-auto md:right-auto ${isOpen ? "flex" : "hidden"}`}>
           <li className='hover:text-xl text-white'><a href="#">Home</a></li>
-          <li className='hover:text-xl text-white'><a href="#">Favorites</a></li>
+          <li className='hover:text-xl text-white'><Link to="/favorite">Favorite</Link></li>
           <li className='hover:text-xl text-white'><a href="#">About Us</a></li>
         </ul>
       </nav>

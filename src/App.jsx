@@ -4,6 +4,7 @@ import Explore from "./pages/explore";
 import Nonveg from "./pages/nonveg";
 import Veg from "./pages/veg";
 import Dessert from "./pages/dessert";
+import Favorite from "./pages/favorite";
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Nonveg" element={<Nonveg />} />
         <Route path="/veg" element={<Veg />} />
         <Route path="/dessert" element={<Dessert />} />
+        <Route path="/favorite" element={<Favorite />} />
       </Routes>
     
   );
