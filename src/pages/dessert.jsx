@@ -53,7 +53,7 @@ function Dessert(){
             <div key={section1.id} className='h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={section1.image} alt={section1.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{section1.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{section1.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg '>{section1.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -75,7 +75,7 @@ function Dessert(){
             <div key={section2.id} className=' h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={section2.image} alt={section2.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{section2.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{section2.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg '>{section2.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >

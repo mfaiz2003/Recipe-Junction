@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import '../pages/gradient.css';
-import image1 from '../nonveg.img/image1.png';
-import image4 from '../nonveg.img/image4.png';
+import image21 from '../nonveg.img/image21.jpg';
+import image1 from '../nonveg.img/image1.jpeg';
 import veg2 from '../veg.img/veg2.png';
 import veg3 from '../veg.img/veg3.png';
 import dessert1 from '../dessert/dessert1.jpeg';
@@ -36,7 +36,7 @@ function Explore() {
 
     
           <div className="absolute top-0 left-20 md:left-44 w-[250px] md:w-[350px] h-[250px] md:h-[350px] rounded-4xl bg-white shadow-xl transform rotate-[8deg] z-20 ">
-            <img src={image4} alt="dessert2" className="w-full h-full object-cover rounded-4xl" />
+            <img src={image21} alt="dessert2" className="w-full h-full object-cover rounded-4xl" />
            </div>
           </div>
    
@@ -47,7 +47,7 @@ function Explore() {
              fresh herbs, and a rich blend of sauces. Perfectly balanced to give every bite a burst of taste that will leave you wanting more."</p>
 
           <div className="flex justify-center mt-6 md:mt-10">
-            <button className="smooth-gradient-btn transition-transform duration-300 md:px-8 px-4 py-2 text-lg md:text-2xl text-white rounded-xl shadow-xl hover:scale-110" onClick={() => navigate("/dessert")}>Check Out</button>
+            <button className="smooth-gradient-btn transition-transform duration-300 md:px-8 px-4 py-2 text-lg md:text-2xl text-white rounded-xl shadow-xl hover:scale-110" onClick={() => navigate("/nonveg")}>Check Out</button>
             </div>
           </div>
      

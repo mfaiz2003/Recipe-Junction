@@ -21,6 +21,7 @@ function Home(){
      
       <>
       <div className="bg-[#0C104E]">
+
         <div className="min-h-screen w-full px-4 md:px-0">
 
       <nav className='flex items-center'>
@@ -48,16 +49,16 @@ function Home(){
         </ul>
       </nav>
 
-        <h1 className='text-center text-3xl md:text-5xl font-extrabold mt-20 slide-left fade-delay-4 text-white' >“Cook Up a Storm, <span className='text-green-500'>One Yummy Recipe at a Time!”</span></h1> 
-        <p className='text-center text-lg md:text-3xl font-light mt-10 px-4 md:px-0 max-w-3xl mx-auto slide-right fade-delay-5 text-white'>From sizzle to sprinkle, Every bite’s a joy to mingle,<br /> Bringing delicious moments to your table</p>
+        <h1 className='text-center text-3xl md:text-[400%]  font-extrabold mt-20 slide-left fade-delay-4 text-white' >“Cook Up a Storm, <span className='text-green-500'>One Yummy Recipe at a Time!”</span></h1> 
+        <p className='text-center text-lg md:text-[200%] font-light mt-10 px-4 md:px-0 max-w-3xl mx-auto slide-right fade-delay-5 text-white'>From sizzle to sprinkle, Every bite’s a joy to mingle,<br /> Bringing delicious moments to your table</p>
 
       <div className="flex justify-center mt-6 md:mt-10">
-       <button className="smooth-gradient-btn transition-transform duration-300  md:px-10 px-8 py-2 text-white rounded-xl hover:text-xl font-bold" onClick={() => navigate("/explore")}>
+       <button className="smooth-gradient-btn transition-transform duration-300 text-xl md:text-3xl md:px-10 px-8 py-2 text-white rounded-xl hover:text-4xl font-bold" onClick={() => navigate("/explore")}>
         Explore Now
        </button>
       </div>  
 
-       <div className='flex flex-wrap overflow-hidden gap-4 mt-24 justify-center'>
+       <div className='flex flex-wrap overflow-hidden gap-4 mt-24 w-full justify-center'>
 
         <img src={image1} alt="image1" className="w-1/4 h-auto sm:w-52 sm:h-52 object-cover fall-top "style={{ animationDelay: "0s" }}/>
 
@@ -74,6 +75,7 @@ function Home(){
         <div className="w-1/2 h-auto sm:w-76 sm:h-52 object-cover">
         <img src={image6} alt="image6" className="fall-top" style={{ animationDelay: "0.8s" }}/>
         </div>
+
       </div>
     
       </div>

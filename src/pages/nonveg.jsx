@@ -71,6 +71,7 @@ function Nonveg(){
         <div className='w-2/5 mt-5 flex justify-center bg-gradient-to-r from-red-400 via-orange-500 to-red-600 rounded-tr-full rounded-br-full shadow-lg sticky top-20 z-50'>
             <h1 className='text-center font-bold text-2xl m-3 text-white'>Gravy Item</h1>
         </div>
+        
 
         {/* gravy section */}
 
@@ -81,7 +82,7 @@ function Nonveg(){
             <div key={gravy.id} className=' h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={gravy.image} alt={gravy.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{gravy.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{gravy.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg '>{gravy.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -93,6 +94,7 @@ function Nonveg(){
             ))}
         </div>
 
+
         {/* section2 */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 py-4 px-16 md:px-10">
@@ -102,7 +104,7 @@ function Nonveg(){
             <div key={gravy2.id} className='h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={gravy2.image} alt={gravy2.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{gravy2.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{gravy2.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg '>{gravy2.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -128,7 +130,7 @@ function Nonveg(){
             <div key={fried.id} className='h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={fried.image} alt={fried.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{fried.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{fried.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg '>{fried.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -140,6 +142,7 @@ function Nonveg(){
             ))}
         </div>
 
+
         {/* section 2 */}
 
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 py-4 px-16 md:px-10">
@@ -149,7 +152,7 @@ function Nonveg(){
             <div key={fried2.id} className='h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={fried2.image} alt={fried2.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{fried2.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{fried2.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg '>{fried2.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -177,7 +180,7 @@ function Nonveg(){
             <div key={biryani.id} className='h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={biryani.image} alt={biryani.name} className="w-full h-52 object-cover rounded-t-4xl" />
             <h1 className='text-center text-2xl font-bold mt-2'>{biryani.name}</h1>
-            <p className='text-justify px-3 mt-2 text-xl'>{biryani.description}</p> 
+            <p className='text-justify px-3 mt-2 md:text-xl text-lg'>{biryani.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -189,8 +192,6 @@ function Nonveg(){
             ))}
         </div>
         
-
-
 
         <footer className='mt-5 py-3 bg-blue-800'>
           <div className="max-w-7xl mx-auto px-2 flex justify-center items-center">
