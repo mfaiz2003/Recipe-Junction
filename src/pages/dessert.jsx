@@ -46,14 +46,14 @@ function Dessert(){
             <h1 className='text-center font-bold text-2xl m-3 text-white'>Sweets</h1>
         </div>
 
-        <div className="flex justify-between w-full md:w-full gap-10 py-4 px-16 md:px-10 flex-col md:flex-row mt-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 py-4 px-16 md:px-10 mt-32">
             
             {section1.map(section1 => ( 
 
-            <div key={section1.id} className='w-full h-full min-h-[420px] md:w-1/5 bg-white rounded-4xl flex flex-col'> 
+            <div key={section1.id} className='h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={section1.image} alt={section1.name} className="w-full h-52 object-cover rounded-t-4xl" />
-            <h1 className='text-center text-xl mt-2'>{section1.name}</h1>
-            <p className='text-justify px-3 mt-2 flex-grow'>{section1.description}</p> 
+            <h1 className='text-center text-2xl font-bold mt-2'>{section1.name}</h1>
+            <p className='text-justify px-3 mt-2 text-xl'>{section1.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -68,14 +68,14 @@ function Dessert(){
 
         {/* section2 */}
 
-        <div className=" flex justify-between w-full md:w-full gap-10 py-4 px-16 md:px-10 flex-col md:flex-row mt-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 py-4 px-16 md:px-10 mt-14">
 
              {section2.map(section2 => ( 
 
-            <div key={section2.id} className='w-full h-full min-h-[420px] md:w-1/5 bg-white rounded-4xl flex flex-col'> 
+            <div key={section2.id} className=' h-full min-h-[450px] bg-white rounded-4xl flex flex-col'> 
             <img src={section2.image} alt={section2.name} className="w-full h-52 object-cover rounded-t-4xl" />
-            <h1 className='text-center text-xl mt-2'>{section2.name}</h1>
-            <p className='text-justify px-3 mt-2'>{section2.description}</p> 
+            <h1 className='text-center text-2xl font-bold mt-2'>{section2.name}</h1>
+            <p className='text-justify px-3 mt-2 text-xl'>{section2.description}</p> 
             <div className='flex justify-between px-4 mt-auto mb-5'>
             <button className='rounded-2xl bg-orange-400 px-5 py-1 text-white hover:scale-110'> View Recipe </button>
             <button className='p-2 rounded-full bg-blue-800 hover:scale-110' >
@@ -87,9 +87,9 @@ function Dessert(){
             ))}
         </div>
 
-        <footer className='mt-16 py-3 bg-blue-800'>
+        <footer className='mt-5 py-3 bg-blue-800'>
             <div className="max-w-7xl mx-auto px-2 flex justify-center items-center">
-              <p className="text-center md:text-left text-sm md:text-base text-white">
+              <p className="text-center md:text-left text-sm md:text-2xl text-white">
               © 2025 Recipe-Junction. Crafted with ❤️ by Mohammad Faiz
               </p>
             </div>  
